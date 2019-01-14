@@ -1,0 +1,24 @@
+.posts {
+    background-color: #e7e9ec;
+    height: calc(100vh - 70px);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .postItem {
+        background-color: #fff;
+        border-radius: 6px;
+        border: 1px solid #d5d5d5;
+        margin-top: 20px;
+        padding: 20px;
+        width: 600px;
+
+        .postContent {
+            color: #7d7d7d;
+            padding-top: 20px;
+            line-height: 1.5;
+        }
+    }
+}
